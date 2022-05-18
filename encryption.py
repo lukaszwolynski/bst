@@ -76,9 +76,9 @@ def compareHashes():
     makeStars()
 
 def addRandomStuff():
-    with open("encrypted_message.txt", 'w') as file:
+    with open("encrypted_message.txt", 'a') as file:
         file.write("RANDOM STUFF TO MESS WITH HASH")
-    print("\nAdded random stuff to encrypted_message.txt")
+    print("\nAdded random stuff to encrypted_message.txt\n")
 
 
 def main():
